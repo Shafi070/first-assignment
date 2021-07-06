@@ -62,22 +62,19 @@ h3{
 }
 #flex-container-recipies{
     display: flex;
+    margin: 20px;
 }
 .third-width{
     width: 20%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 50px;
+    height: 20%;
+    margin:auto;
+    padding:5px;
     box-shadow: 10px 10px 30px grey;
-    border-radius: 20px;
+    border-radius: 15px;
 }
-.height-width{
-    width: 90%;
+.third-width img{
+    width: 100%;
     height: auto;
-    padding: 5%;
-}
-.inside-padding{
-    padding:10px;
 }
 #footer-item{
     background-color: rgb(250, 201, 191);
