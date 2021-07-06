@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Poppins','sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 30px;
@@ -13,7 +13,7 @@ h3{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .half-width{
     width:50%;
@@ -32,7 +32,31 @@ h3{
     border-radius: 40px;
 }
 .middle-banner{
-    background-image: url(images/background\ one.jpg);
+    background-image: url(images/background-2.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.middle{
+    text-align: center;
+}
+.size{
+    font-size: x-small;
+}
+#flex-container-recipies{
+    display: flex;
+}
+.third-width{
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 20px;
+}
+.height-width{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+}
+.inside-padding{
+    padding:10px;
 }
